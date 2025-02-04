@@ -4,4 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
 };
 
+module.exports = {
+  eslint: {
+    dirs: [],
+  },
+};
+
 export default nextConfig;
